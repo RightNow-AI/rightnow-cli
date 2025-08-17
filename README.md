@@ -405,8 +405,8 @@ This project is licensed under the RightNow CLI License - see [LICENSE](LICENSE)
 │  🌐 Website:    https://rightnowai.co                │
 │  🚀 Code Editor: https://rightnowai.co                │
 │  💬 Discord:    https://discord.com/invite/sSJqgNnq6X │
-│  📧 Email:      support@rightnowai.co                │
-│  🐦 Twitter:    @rightnowai                          │
+│  📧 Email:      jaber@rightnowai.co                  │
+│  🐦 Twitter:    @rightnowai_co                       │
 │  📚 Docs:       https://docs.rightnowai.co/cli       │
 │                                                       │
 └───────────────────────────────────────────────────────┘

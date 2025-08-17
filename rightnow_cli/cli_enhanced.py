@@ -534,7 +534,7 @@ def version():
     try:
         v = get_version("rightnow-cli")
     except:
-        v = "1.0.0 (development)"
+        v = "0.1.0 (development)"
     
     info_text = f"""[bold cyan]RightNow CLI[/bold cyan] v{v}
 
@@ -543,7 +543,8 @@ Part of the RightNow AI Code Editor ecosystem
 
 [dim]Website: https://rightnowai.co
 Documentation: https://docs.rightnowai.co/cli
-Support: support@rightnowai.co[/dim]"""
+Contact: jaber@rightnowai.co
+Twitter/X: @rightnowai_co[/dim]"""
     
     console.print(Panel(
         info_text,
@@ -559,6 +560,7 @@ def main_callback():
     
     Part of the RightNow AI Code Editor ecosystem.
     Visit https://rightnowai.co for more information.
+    Follow @rightnowai_co on Twitter/X for updates.
     """
     pass
 

@@ -81,6 +81,6 @@ Please use GitHub Issues to report bugs or request features. Include:
 
 ## Questions?
 
-Feel free to open an issue or reach out to support@rightnowai.co
+Feel free to open an issue or reach out to jaber@rightnowai.co
 
 Thank you for contributing!

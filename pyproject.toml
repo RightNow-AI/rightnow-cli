@@ -7,7 +7,7 @@ name = "rightnow-cli"
 version = "0.1.0"
 description = "RightNow AI CUDA Kernel Optimizer - Accelerate your GPU code with AI-powered optimization"
 readme = "README.md"
-authors = [{name = "RightNow AI Team", email = "support@rightnowai.co"}]
+authors = [{name = "RightNow AI Team", email = "jaber@rightnowai.co"}]
 license = {text = "Proprietary"}
 requires-python = ">=3.8"
 classifiers = [
