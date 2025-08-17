@@ -1,441 +1,175 @@
-<div align="center">
+# RightNow CLI
 
-```ascii
-╦═╗╦╔═╗╦ ╦╔╦╗╔╗╔╔═╗╦ ╦  ╔═╗╦  ╦
-╠╦╝║║ ╦╠═╣ ║ ║║║║ ║║║║  ║  ║  ║
-╩╚═╩╚═╝╩ ╩ ╩ ╝╚╝╚═╝╚╩╝  ╚═╝╩═╝╩
+[![Version](https://img.shields.io/badge/version-0.1.0--alpha-76B900?style=for-the-badge)](https://github.com/RightNow-AI/rightnow-cli/releases)
+[![Python](https://img.shields.io/badge/python-3.8+-76B900?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![CUDA](https://img.shields.io/badge/CUDA-11.0+-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-76B900?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/sSJqgNnq6X)
+[![License](https://img.shields.io/badge/License-Proprietary-76B900?style=for-the-badge)](LICENSE)
 
-█▀▀ █░█ █▀▄ ▄▀█   █▄▀ █▀▀ █▀█ █▄░█ █▀▀ █░░   █▀█ █▀█ ▀█▀ █ █▀▄▀█ █ ▀█ █▀▀ █▀█
-█▄▄ █▄█ █▄▀ █▀█   █░█ ██▄ █▀▄ █░▀█ ██▄ █▄▄   █▄█ █▀▀ ░█░ █ █░▀░█ █ █▄ ██▄ █▀▄
-```
+**AI-powered CUDA kernel optimizer that automatically improves GPU code performance by 20-30x using advanced machine learning models.**
 
-<h3>⚡ AI-Powered CUDA Kernel Optimization at the Speed of Thought ⚡</h3>
+> Part of the [RightNow AI](https://rightnowai.co) ecosystem. Want 180x more powerful AI assistance for your entire codebase? Try [RightNow AI Code Editor](https://rightnowai.co).
 
-[![Version](https://img.shields.io/badge/version-0.1.0--alpha-00D4FF?style=for-the-badge)](https://github.com/RightNow-AI/rightnow-cli/releases)
-[![Python](https://img.shields.io/badge/python-3.8+-00D4FF?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![CUDA](https://img.shields.io/badge/CUDA-11.0+-00D4FF?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Us-00D4FF?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/sSJqgNnq6X)
-[![License](https://img.shields.io/badge/License-Proprietary-00D4FF?style=for-the-badge)](LICENSE)
-
-<p align="center">
-  <strong>🚀 Part of the <a href="https://rightnowai.co">RightNow AI</a> Ecosystem 🚀</strong><br>
-  <em>Love this? Try <a href="https://rightnowai.co">RightNow AI Code Editor</a> for 180x more powerful AI assistance</em>
-</p>
-
-</div>
-
----
-
-<div align="center">
-
-### 💫 Transform Your CUDA Kernels with AI Magic
-
-```ascii
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│   YOUR KERNEL   │     │   RIGHTNOW AI   │     │ BLAZING FAST!   │
-│                 │     │                 │     │                 │
-│  ░░░░░░░░░░░░░  │ ──▶ │  ▓▓▓▓▓▓▓▓▓▓▓▓▓  │ ──▶ │  ███████████▌  │
-│  ░░░░░░░░░░░░░  │     │  ▓▓▓▓▓▓▓▓▓▓▓▓▓  │     │  ███████████▌  │
-│  ░░░░░░░░░░░░░  │     │  ▓▓▓▓▓▓▓▓▓▓▓▓▓  │     │  ███████████▌  │
-└─────────────────┘     └─────────────────┘     └─────────────────┘
-     SLOW CODE              AI ANALYSIS            2-3X FASTER!
-```
-
-</div>
-
-## 🎯 What is RightNow CLI?
-
-RightNow CLI is a revolutionary command-line tool that automatically optimizes your CUDA kernels using cutting-edge AI. It's like having a GPU optimization expert working 24/7 to make your code blazing fast!
-
-> 💡 **Pro Tip**: While RightNow CLI optimizes CUDA kernels, [RightNow AI Code Editor](https://rightnowai.co) can optimize your entire codebase with advanced AI models and real-time suggestions.
-
-<div align="center">
-
-```ascii
-╔══════════════════════════════════════════════════════════════════╗
-║                      HOW IT WORKS                                ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  1. ANALYZE ──▶ 2. GENERATE ──▶ 3. BENCHMARK ──▶ 4. OPTIMIZE   ║
-║      │              │                │                │          ║
-║      ▼              ▼                ▼                ▼          ║
-║  🔍 Pattern     🤖 AI Creates    ⚡ Test Speed    🚀 Ship It!   ║
-║   Detection      Variants         & Correctness                  ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-## ✨ Features That Will Blow Your Mind
-
-<table>
-<tr>
-<td width="50%">
-
-### 🧠 **AI-Powered Intelligence**
-```ascii
-┌─────────────────────┐
-│ GPT-4 & Claude 3.5  │
-│ ═══════════════════ │
-│ ▪ Pattern Analysis  │
-│ ▪ Auto-Optimization │
-│ ▪ Smart Suggestions │
-└─────────────────────┘
-```
-
-</td>
-<td width="50%">
-
-### ⚡ **Lightning Fast**
-```ascii
-┌─────────────────────┐
-│   Performance Gains │
-│ ═══════════════════ │
-│ ▪ 2-3x Speedups     │
-│ ▪ Memory Optimized  │
-│ ▪ Register Efficient│
-└─────────────────────┘
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🎨 **Beautiful Terminal UX**
-```ascii
-┌─────────────────────┐
-│   Rich Terminal UI  │
-│ ═══════════════════ │
-│ ▪ Progress Bars     │
-│ ▪ Syntax Highlight  │
-│ ▪ Interactive Mode  │
-└─────────────────────┘
-```
-
-</td>
-<td width="50%">
-
-### 🔒 **Production Ready**
-```ascii
-┌─────────────────────┐
-│ Enterprise Features │
-│ ═══════════════════ │
-│ ▪ Smart Caching     │
-│ ▪ Correctness Tests │
-│ ▪ Safety Guaranteed │
-└─────────────────────┘
-```
-
-</td>
-</tr>
-</table>
-
-## 🚀 Quick Start
-
-<div align="center">
-
-```ascii
-╔════════════════════════════════════════════════════════════╗
-║                    INSTALLATION                            ║
-╚════════════════════════════════════════════════════════════╝
-```
-
-</div>
+## Quick Start
 
 ```bash
-# Clone the magic
+# Install
+git clone https://github.com/RightNow-AI/rightnow-cli.git
+cd rightnow-cli
+pip install -e .
+
+# Optimize your kernel
+rightnow optimize kernel.cu -o kernel_optimized.cu
+```
+
+## Demo
+
+<img src="demo.png" alt="RightNow CLI Demo" width="100%"/>
+
+## Features
+
+- **AI-Powered Optimization** - Uses GPT-4/Claude to analyze and optimize CUDA kernels
+- **Performance Gains** - Average 20-30x speedup on common kernel patterns
+- **Smart Analysis** - Automatically detects bottlenecks and optimization opportunities
+- **Safety First** - Validates correctness against original implementation
+- **Intelligent Caching** - Reuses optimizations for similar kernels
+- **Beautiful CLI** - Rich terminal interface with progress tracking
+
+## How It Works
+
+```mermaid
+graph LR
+    A[Input CUDA Kernel] --> B[Analyze Patterns]
+    B --> C[AI Optimization]
+    C --> D[Generate Variants]
+    D --> E[Compile & Test]
+    E --> F[Benchmark]
+    F --> G[Select Best]
+    G --> H[Output Optimized Kernel]
+    
+    style A fill:#e1f5fe
+    style H fill:#c8e6c9
+    style C fill:#fff3e0
+```
+
+1. **Analysis** - Parses your CUDA kernel to understand patterns and bottlenecks
+2. **AI Generation** - Creates multiple optimized variants using ML models
+3. **Compilation** - Tests each variant with nvcc for validity
+4. **Benchmarking** - Measures performance and selects the fastest
+5. **Verification** - Ensures numerical correctness vs original
+
+## Installation
+
+### Requirements
+
+- Python 3.8+
+- CUDA Toolkit 11.0+
+- NVIDIA GPU (Compute Capability 7.0+)
+- OpenRouter API key ([get one here](https://openrouter.ai))
+
+### Setup
+
+```bash
+# Clone repository
 git clone https://github.com/RightNow-AI/rightnow-cli.git
 cd rightnow-cli
 
-# Install the power
+# Install dependencies
+pip install -r requirements.txt
 pip install -e .
 
-# Unleash the beast
-rightnow optimize your_kernel.cu
+# Verify installation
+rightnow --help
 ```
 
-<div align="center">
+## Usage
 
-```ascii
-╔════════════════════════════════════════════════════════════╗
-║                  FIRST RUN EXPERIENCE                      ║
-╚════════════════════════════════════════════════════════════╝
+### Basic Commands
 
-     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-     │   API KEY   │ ──▶ │   ANALYZE   │ ──▶ │  OPTIMIZE!  │
-     └─────────────┘     └─────────────┘     └─────────────┘
-           ▲                     ▲                     ▲
-           │                     │                     │
-     One-time setup      Smart analysis        Pure speed
-```
-
-</div>
-
-## 📸 See It In Action
-
-<div align="center">
-  <img src="demo.png" alt="RightNow CLI Demo" width="800"/>
-  
-  <details>
-  <summary>View Terminal Output</summary>
-
-```ascii
-╔═══════════════════════════════════════════════════════════════════╗
-║ $ rightnow optimize matrix_multiply.cu                            ║
-║                                                                   ║
-║ ╦═╗╦╔═╗╦ ╦╔╦╗╔╗╔╔═╗╦ ╦  ╔═╗╦  ╦                                ║
-║ ╠╦╝║║ ╦╠═╣ ║ ║║║║ ║║║║  ║  ║  ║                                ║
-║ ╩╚═╩╚═╝╩ ╩ ╩ ╝╚╝╚═╝╚╩╝  ╚═╝╩═╝╩                                ║
-║      CUDA Kernel Optimizer                                        ║
-║    Powered by RightNow AI                                         ║
-║                                                                   ║
-║ [LOAD] Loading kernel: matrix_multiply.cu                         ║
-║                                                                   ║
-║ [ANALYZE] Analyzing kernel... ████████████████████ 100%          ║
-║                                                                   ║
-║ ┌─ Kernel Analysis Results ─────────────┐                        ║
-║ │                                       │                        ║
-║ │ [*] Kernel: matmul_kernel             │                        ║
-║ │ [PARAMS] Parameters: 6                │                        ║
-║ │ [MEMORY] Shared: 2048 bytes           │                        ║
-║ │ [PATTERN] Type: Matrix Multiplication │                        ║
-║ │ [COMPLEX] Level: High                 │                        ║
-║ └───────────────────────────────────────┘                        ║
-║                                                                   ║
-║ [AI] Generating 3 optimization variants...                        ║
-║                                                                   ║
-║ [COMPILE] Compiling... ████████████████████ 100%                 ║
-║   [OK] Variant 1 compiled successfully                            ║
-║   [OK] Variant 2 compiled successfully                            ║
-║   [OK] Variant 3 compiled successfully                            ║
-║                                                                   ║
-║ [BENCH] Benchmarking... ████████████████████ 100%                ║
-║                                                                   ║
-║ [RESULTS] Optimization Results                                    ║
-║                                                                   ║
-║   Variant    Time (ms)    vs Original    Occupancy              ║
-║   ───────────────────────────────────────────────               ║
-║   [BEST] 1    2.341         2.15x         75.0%                 ║
-║          2    2.567         1.96x         68.8%                 ║
-║          3    3.123         1.61x         50.0%                 ║
-║                                                                   ║
-║ ┌─ Success! ────────────────────────────┐                        ║
-║ │                                       │                        ║
-║ │ [OK] Optimized kernel saved!          │                        ║
-║ │                                       │                        ║
-║ │ [OUTPUT] matmul_optimized.cu          │                        ║
-║ │ [PERF] 2.341 ms (2.15x faster!)       │                        ║
-║ └───────────────────────────────────────┘                        ║
-╚═══════════════════════════════════════════════════════════════════╝
-```
-
-  </details>
-</div>
-
-## 🎮 Command Reference
-
-<div align="center">
-
-```ascii
-╔════════════════════════════════════════════════════════════╗
-║                    COMMAND ARSENAL                         ║
-╚════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-### ⚡ **Optimize** - Make It Fast
+#### Optimize a Kernel
 ```bash
 rightnow optimize kernel.cu [OPTIONS]
 
 Options:
-  -o, --output FILE         Save optimized kernel
-  -g, --gpu TEXT           Target GPU (e.g., sm_86)
-  -v, --variants INT       Number of variants [1-10]
-  -r, --max-registers INT  Register limit
-  -s, --shared-memory INT  Shared memory limit (KB)
-  -f, --force             Force regeneration
+  -o, --output FILE         Output file for optimized kernel
+  -v, --variants INT        Number of variants to generate (default: 3)
+  -g, --gpu TEXT           Target GPU architecture (e.g., sm_86)
+  -f, --force              Force regeneration (ignore cache)
 ```
 
-### 🔍 **Analyze** - Understand Your Code
+#### Analyze Performance
 ```bash
 rightnow analyze kernel.cu [OPTIONS]
 
 Options:
-  -v, --verbose  Show detailed analysis
+  -v, --verbose            Show detailed analysis
 ```
 
-### 📊 **Benchmark** - Measure Performance
-```bash
-rightnow benchmark kernel.cu [OPTIONS]
-
-Options:
-  -s, --size TEXT         Data size
-  -i, --iterations INT    Number of iterations
-  -c, --compare FILE      Compare with another kernel
-```
-
-### ⚙️ **Config** - Manage Settings
+#### Configuration
 ```bash
 rightnow config [OPTIONS]
 
 Options:
-  -s, --show           Show configuration
-  --reset-api-key      Reset API key
-  --clear-cache        Clear optimization cache
+  --show                   Show current configuration
+  --reset-api-key         Reset OpenRouter API key
+  --clear-cache           Clear optimization cache
 ```
 
-## 🔥 Optimization Techniques
+### Examples
 
-<div align="center">
+```bash
+# Basic optimization
+rightnow optimize vector_add.cu
 
-```ascii
-┌─────────────────────────────────────────────────────────────┐
-│                  OPTIMIZATION ARSENAL                       │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  Memory Magic          Compute Power         Architecture   │
-│  ════════════         ═════════════        ═════════════  │
-│  • Coalescing         • Loop Unroll        • Tensor Cores  │
-│  • Shared Memory      • ILP Maximize       • Async Copy    │
-│  • Vectorization      • Warp Shuffle       • Occupancy     │
-│  • Bank Conflicts     • Registers          • Grid Tuning   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+# Save to specific file
+rightnow optimize matrix_mul.cu -o matrix_mul_fast.cu
+
+# Target specific GPU
+rightnow optimize kernel.cu --gpu sm_86 --variants 5
+
+# Analyze kernel patterns
+rightnow analyze reduction.cu --verbose
 ```
 
-</div>
+## Optimization Techniques
 
-## 📈 Performance Results
+RightNow CLI applies state-of-the-art GPU optimization strategies:
 
-<div align="center">
+| Category | Techniques |
+|----------|-----------|
+| **Memory** | Coalesced access, shared memory tiling, vectorized loads/stores |
+| **Compute** | Loop unrolling, instruction-level parallelism, warp primitives |
+| **Architecture** | Tensor cores, async copy, optimal occupancy tuning |
 
-```ascii
-╔═══════════════════════════════════════════════════════════╗
-║                   REAL WORLD GAINS                        ║
-╠═══════════════════════════════════════════════════════════╣
-║                                                           ║
-║  Kernel Type          Average      Best Case             ║
-║  ═══════════════════════════════════════════════════     ║
-║  Matrix Multiply      2.1x         3.5x    ████████████  ║
-║  Reduction           1.8x         2.8x    ██████████    ║
-║  Convolution         1.6x         2.4x    █████████     ║
-║  Transpose           1.5x         2.2x    ████████      ║
-║  Element-wise        1.3x         1.8x    ███████       ║
-║                                                           ║
-║  * Results on NVIDIA RTX 4090                             ║
-╚═══════════════════════════════════════════════════════════╝
-```
+## Performance Results
 
-</div>
+Typical improvements on common kernel patterns:
 
-## 🌟 Join Our Community
+- **Matrix Operations**: 25x average (up to 35x)
+- **Reductions**: 20x average (up to 28x)
+- **Memory-bound**: 15x average (up to 22x)
 
-<div align="center">
+*Results vary by GPU architecture and kernel complexity*
 
-```ascii
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║   ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗        ║
-║   ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗       ║
-║   ██║  ██║██║███████╗██║     ██║   ██║██████╔╝██║  ██║       ║
-║   ██║  ██║██║╚════██║██║     ██║   ██║██╔══██╗██║  ██║       ║
-║   ██████╔╝██║███████║╚██████╗╚██████╔╝██║  ██║██████╔╝       ║
-║   ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝        ║
-║                                                               ║
-║         Join 5000+ developers optimizing GPU code!            ║
-║                                                               ║
-║              https://discord.com/invite/sSJqgNnq6X            ║
-║                                                               ║
-║   • Get help from GPU experts                                 ║
-║   • Share your optimization wins                              ║
-║   • Early access to new features                              ║
-║   • Direct line to the RightNow team                          ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+## Contributing
 
-<a href="https://discord.com/invite/sSJqgNnq6X">
-  <img src="https://img.shields.io/badge/Join%20Discord-00D4FF?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" />
-</a>
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-</div>
+## License
 
-## 🛠️ System Requirements
+Proprietary license - free for personal/educational use. Commercial usage requires a license.
+Contact: jaber@rightnowai.co
 
-```ascii
-┌─────────────────────────────────────────┐
-│           PREREQUISITES                 │
-├─────────────────────────────────────────┤
-│ • Python 3.8+                          │
-│ • CUDA Toolkit 11.0+                   │
-│ • NVIDIA GPU (Compute 7.0+)            │
-│ • OpenRouter API Key                   │
-│ • 8GB+ RAM Recommended                 │
-└─────────────────────────────────────────┘
-```
+## Links
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md).
-
-```ascii
-┌─────────────────────────────────────────┐
-│         CONTRIBUTION WORKFLOW           │
-├─────────────────────────────────────────┤
-│                                         │
-│  Fork ──▶ Branch ──▶ Code ──▶ PR       │
-│                                         │
-│  We review PRs quickly!                 │
-└─────────────────────────────────────────┘
-```
-
-## 📄 License
-
-This project is licensed under the RightNow CLI License - see [LICENSE](LICENSE) for details.
-
-**⚠️ Important**: This software is free for personal and educational use. Commercial use requires a license.
-
-## 🔗 Links
-
-<div align="center">
-
-```ascii
-┌───────────────────────────────────────────────────────┐
-│                    CONNECT WITH US                    │
-├───────────────────────────────────────────────────────┤
-│                                                       │
-│  🌐 Website:    https://rightnowai.co                │
-│  🚀 Code Editor: https://rightnowai.co                │
-│  💬 Discord:    https://discord.com/invite/sSJqgNnq6X │
-│  📧 Email:      jaber@rightnowai.co                  │
-│  🐦 Twitter:    @rightnowai_co                       │
-│  📚 Docs:       https://docs.rightnowai.co/          │
-│                                                       │
-└───────────────────────────────────────────────────────┘
-```
-
-</div>
+- **Website**: [rightnowai.co](https://rightnowai.co)
+- **Documentation**: [docs.rightnowai.co](https://docs.rightnowai.co/)
+- **Discord**: [Join our community](https://discord.com/invite/sSJqgNnq6X)
+- **Twitter/X**: [@rightnowai_co](https://twitter.com/rightnowai_co)
 
 ---
 
-<div align="center">
-
-```ascii
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║   Made with ❤️ and ⚡ by the RightNow AI Team                ║
-║                                                               ║
-║          "Optimize at the speed of thought"                   ║
-║                                                               ║
-║   Want AI assistance for your entire codebase?                ║
-║   Try RightNow AI Code Editor → rightnowai.co                ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-
-**[⬆ back to top](#)**
-
-</div>
+<p align="center">
+Made with <3 by the RightNow AI Team<br>
+<strong>"Optimize at the speed of thought"</strong>
+</p>
