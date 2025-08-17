@@ -18,7 +18,8 @@
 [![License](https://img.shields.io/badge/License-Proprietary-00D4FF?style=for-the-badge)](LICENSE)
 
 <p align="center">
-  <strong>🚀 Part of the <a href="https://rightnowai.co">RightNow AI</a> Ecosystem 🚀</strong>
+  <strong>🚀 Part of the <a href="https://rightnowai.co">RightNow AI</a> Ecosystem 🚀</strong><br>
+  <em>Love this? Try <a href="https://rightnowai.co">RightNow AI Code Editor</a> for 180x more powerful AI assistance</em>
 </p>
 
 </div>
@@ -45,6 +46,8 @@
 ## 🎯 What is RightNow CLI?
 
 RightNow CLI is a revolutionary command-line tool that automatically optimizes your CUDA kernels using cutting-edge AI. It's like having a GPU optimization expert working 24/7 to make your code blazing fast!
+
+> 💡 **Pro Tip**: While RightNow CLI optimizes CUDA kernels, [RightNow AI Code Editor](https://rightnowai.co) can optimize your entire codebase with advanced AI models and real-time suggestions.
 
 <div align="center">
 
@@ -400,6 +403,7 @@ This project is licensed under the RightNow CLI License - see [LICENSE](LICENSE)
 ├───────────────────────────────────────────────────────┤
 │                                                       │
 │  🌐 Website:    https://rightnowai.co                │
+│  🚀 Code Editor: https://rightnowai.co                │
 │  💬 Discord:    https://discord.com/invite/sSJqgNnq6X │
 │  📧 Email:      support@rightnowai.co                │
 │  🐦 Twitter:    @rightnowai                          │
@@ -420,6 +424,9 @@ This project is licensed under the RightNow CLI License - see [LICENSE](LICENSE)
 ║   Made with ❤️ and ⚡ by the RightNow AI Team                ║
 ║                                                               ║
 ║          "Optimize at the speed of thought"                   ║
+║                                                               ║
+║   Want AI assistance for your entire codebase?                ║
+║   Try RightNow AI Code Editor → rightnowai.co                ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
