@@ -176,6 +176,10 @@ rightnow optimize your_kernel.cu
 ## 📸 See It In Action
 
 <div align="center">
+  <img src="demo.png" alt="RightNow CLI Demo" width="800"/>
+  
+  <details>
+  <summary>View Terminal Output</summary>
 
 ```ascii
 ╔═══════════════════════════════════════════════════════════════════╗
@@ -227,6 +231,7 @@ rightnow optimize your_kernel.cu
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
 
+  </details>
 </div>
 
 ## 🎮 Command Reference
