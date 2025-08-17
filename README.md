@@ -11,7 +11,7 @@
 
 <h3>⚡ AI-Powered CUDA Kernel Optimization at the Speed of Thought ⚡</h3>
 
-[![Version](https://img.shields.io/badge/version-0.1.0--alpha-00D4FF?style=for-the-badge)](https://github.com/rightnowai/rightnow-cli/releases)
+[![Version](https://img.shields.io/badge/version-0.1.0--alpha-00D4FF?style=for-the-badge)](https://github.com/RightNow-AI/rightnow-cli/releases)
 [![Python](https://img.shields.io/badge/python-3.8+-00D4FF?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![CUDA](https://img.shields.io/badge/CUDA-11.0+-00D4FF?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Us-00D4FF?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/sSJqgNnq6X)
@@ -146,7 +146,7 @@ RightNow CLI is a revolutionary command-line tool that automatically optimizes y
 
 ```bash
 # Clone the magic
-git clone https://github.com/rightnowai/rightnow-cli.git
+git clone https://github.com/RightNow-AI/rightnow-cli.git
 cd rightnow-cli
 
 # Install the power
@@ -412,7 +412,7 @@ This project is licensed under the RightNow CLI License - see [LICENSE](LICENSE)
 │  💬 Discord:    https://discord.com/invite/sSJqgNnq6X │
 │  📧 Email:      jaber@rightnowai.co                  │
 │  🐦 Twitter:    @rightnowai_co                       │
-│  📚 Docs:       https://docs.rightnowai.co/cli       │
+│  📚 Docs:       https://docs.rightnowai.co/          │
 │                                                       │
 └───────────────────────────────────────────────────────┘
 ```

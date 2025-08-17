@@ -7,7 +7,7 @@ Thank you for your interest in contributing to RightNow CLI! We welcome contribu
 1. Fork the repository
 2. Clone your fork:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/rightnow-cli.git
+   git clone https://github.com/RightNow-AI/rightnow-cli.git
    cd rightnow-cli
    ```
 
