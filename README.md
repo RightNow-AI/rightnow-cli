@@ -75,8 +75,10 @@ git clone https://github.com/RightNow-AI/rightnow-cli.git
 cd rightnow-cli
 
 # Install dependencies
-pip install -r requirements.txt
 pip install -e .
+
+# Install dependencies dev
+pip install -e ".[dev]"
 
 # Verify installation
 rightnow --help
@@ -91,8 +93,8 @@ rightnow --help
 rightnow optimize kernel.cu [OPTIONS]
 
 Options:
-  -o, --output FILE         Output file for optimized kernel
-  -v, --variants INT        Number of variants to generate (default: 3)
+  -o, --output FILE        Output file for optimized kernel
+  -v, --variants INT       Number of variants to generate (default: 3)
   -g, --gpu TEXT           Target GPU architecture (e.g., sm_86)
   -f, --force              Force regeneration (ignore cache)
 ```
@@ -110,7 +112,7 @@ Options:
 rightnow config [OPTIONS]
 
 Options:
-  --show                   Show current configuration
+  --show                  Show current configuration
   --reset-api-key         Reset OpenRouter API key
   --clear-cache           Clear optimization cache
 ```
