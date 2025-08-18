@@ -93,8 +93,8 @@ rightnow --help
 rightnow optimize kernel.cu [OPTIONS]
 
 Options:
-  -o, --output FILE         Output file for optimized kernel
-  -v, --variants INT        Number of variants to generate (default: 3)
+  -o, --output FILE        Output file for optimized kernel
+  -v, --variants INT       Number of variants to generate (default: 3)
   -g, --gpu TEXT           Target GPU architecture (e.g., sm_86)
   -f, --force              Force regeneration (ignore cache)
 ```
@@ -112,7 +112,7 @@ Options:
 rightnow config [OPTIONS]
 
 Options:
-  --show                   Show current configuration
+  --show                  Show current configuration
   --reset-api-key         Reset OpenRouter API key
   --clear-cache           Clear optimization cache
 ```
