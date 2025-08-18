@@ -30,7 +30,8 @@ dependencies = [
     "pycuda>=2022.1",
     "numpy>=1.21.0",
     "tqdm>=4.66.0",
-    "rich>=13.5.0"
+    "rich>=13.5.0",
+    "backoff>=2.2.1"
 ]
 
 [project.optional-dependencies]
