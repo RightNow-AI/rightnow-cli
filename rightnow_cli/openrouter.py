@@ -46,7 +46,6 @@ class OpenRouterClient:
             "temperature": 0.2,
             "max_tokens": 4000
         }
-        
         response = requests.post(
             self.BASE_URL,
             headers=self.headers,
@@ -67,7 +66,8 @@ class OpenRouterClient:
         original_code: str,
         analysis: Dict[str, Any],
         constraints: Dict[str, Any],
-        num_variants: int = 3
+        num_variants: int = 3,
+        model_name: str = "openai/gpt-4"
     ) -> List[KernelCandidate]:
         """Generate optimized variants of a user-provided CUDA kernel."""
         
@@ -93,12 +93,12 @@ Constraints:
 Please generate {num_variants} optimized variants with different optimization strategies.
 Focus on: memory coalescing, shared memory usage, instruction-level parallelism, and minimizing divergence."""
         
-        console.print(f"[cyan]Generating {num_variants} optimization variants...[/cyan]")
+        console.print(f"[cyan]Generating {num_variants} optimization variants with model {model_name}...[/cyan]")
         
         candidates = []
         for i in range(num_variants):
             try:
-                response = self._make_request(user_prompt + f"\n\nGenerate variant {i+1} with a different optimization approach.", system_prompt)
+                response = self._make_request(f"{user_prompt}\n\nGenerate variant {i+1} with a different optimization approach.", system_prompt, model=model_name)
                 kernel_code = self._extract_cuda_code(response)
                 
                 if kernel_code:

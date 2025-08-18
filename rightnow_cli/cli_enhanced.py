@@ -90,6 +90,11 @@ def optimize(
         dir_okay=False,
         readable=True
     ),
+    model_name: Optional[str] = typer.Option(
+        "openai/gpt-4",
+        "--model_name", "-mn",
+        help="Set model name"
+    ),
     output_file: Optional[Path] = typer.Option(
         None, 
         "--output", "-o", 
@@ -226,7 +231,8 @@ def optimize(
                     original_code=original_code,
                     analysis=analysis,
                     constraints=constraints,
-                    num_variants=1
+                    num_variants=1,
+                    model_name=model_name
                 )
                 if kernel_candidates:
                     generated_kernels.extend(kernel_candidates)
