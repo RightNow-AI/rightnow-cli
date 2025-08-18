@@ -75,8 +75,10 @@ git clone https://github.com/RightNow-AI/rightnow-cli.git
 cd rightnow-cli
 
 # Install dependencies
-pip install -r requirements.txt
 pip install -e .
+
+# Install dependencies dev
+pip install -e ".[dev]"
 
 # Verify installation
 rightnow --help
