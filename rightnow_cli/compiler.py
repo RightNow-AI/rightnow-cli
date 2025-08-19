@@ -120,11 +120,12 @@ class CUDACompiler:
             if "max_registers" in constraints:
                 compile_flags.append(f"-maxrregcount={constraints['max_registers']}")
             
+            nvcc_args = []
             try:
                 console.print(f"[cyan]Compiling kernel for {kernel_data.get('operation', 'unknown')}...[/cyan]")
-                
+                nvcc_args = [self.nvcc_path] + compile_flags + [str(cuda_file)]
                 result = subprocess.run(
-                    [self.nvcc_path] + compile_flags + [str(cuda_file)],
+                    nvcc_args,
                     capture_output=True,
                     text=True,
                     check=True
@@ -133,8 +134,9 @@ class CUDACompiler:
                 with open(ptx_file, 'r') as f:
                     ptx_code = f.read()
                 
+                nvcc_args = [self.nvcc_path, "-cubin"] + self.arch_flags + ["-o", str(cubin_file), str(cuda_file)]
                 cubin_result = subprocess.run(
-                    [self.nvcc_path, "-cubin"] + self.arch_flags + ["-o", str(cubin_file), str(cuda_file)],
+                    nvcc_args,
                     capture_output=True,
                     text=True
                 )
@@ -157,7 +159,7 @@ class CUDACompiler:
                 
             except subprocess.CalledProcessError as e:
                 error_info = self._parse_compilation_errors(e.stderr)
-                raise RuntimeError(f"Kernel compilation failed:\n{error_info}")
+                raise RuntimeError(f"Kernel compilation failed:\nCommand build:{nvcc_args}\n{error_info}")
     
     def _prepare_kernel_code(self, kernel_code: str) -> str:
         """Prepare kernel code with necessary includes and helpers."""
